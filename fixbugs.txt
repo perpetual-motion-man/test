@@ -1,2 +1,5 @@
-this is the hotfix in master
+the bug #56 has been fixed:
 fix some bugs
+add a feature
+remove an old feature
+enjoy it
