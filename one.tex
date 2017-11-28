@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\usepackage{color}
+\usepackage{CJKutf8}
+\usepackage{listings}
+\usepackage{todonotes}
+\newcommand{\zytbegin}{\begingroup \color{blue} \begin{CJK}{UTF8}{gbsn}}
+\newcommand{\zytend}{\end{CJK} \endgroup}
+
+
+\begin{document}
+
+
+hello world.
+
+\zytbegin
+
+nice day
+
+hard work
+
+\todo[fancyline]{this is todos}
+
+\begin{lstlisting}[language=C++]
+  #include <stdio.h>
+  int main(int argc, char *argv[])
+  {
+      int i;
+      int *ptr = NULL;
+      printf("haha\n");
+  }
+\end{lstlisting}
+
+干得好utf8啊,
+
+这里就是很多说明blabla啦.
+
+all done,
+good bye
+
+\zytend
+
+the doc end
+
+\end{document}
